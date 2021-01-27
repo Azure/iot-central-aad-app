@@ -1,0 +1,84 @@
+body {
+  padding: 2rem;
+  background-color: #cfcfcf;
+  padding-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+b {
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  margin-top: 0
+}
+
+button {
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.btn-sm {
+  padding: 0.5rem;
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
+.btn-sm:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+input[type='text'] {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+  width: 20rem;
+  border: 1px solid black;
+}
+
+input:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 1px solid black;
+}
+
+label {
+  font-weight: 600;
+}
+
+.success {
+  font-weight: 600;
+  color: green;
+}
+
+.error {
+  font-weight: 600;
+  color: red;
+}
+
+.toggle-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.toggle-item>div {
+  margin-right: .25rem;
+}
+
+.toggle-item>div:nth-child(2) {
+  cursor: pointer;
+}
