@@ -3,7 +3,7 @@ An interactive code walk-through on how to authenticate and authorize to use the
 
 ## Install
 ```
-npm ci
+npm i
 ```
 
 ## Run
