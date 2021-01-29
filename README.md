@@ -3,7 +3,7 @@ This is a small codebase built from create-react-app and uses MSAL.js. The code 
 
 The code demonstrates two call patterns.  One pattern is used for IoT Central data plane APIs and single sign-on.  The other is used for IoT Central control plane APIs.  
 
-Data plane APIs are REST APIs to interact with a specific IoT Central application.  Click here to see the list of available APIs.  Single sign-on enables deep-linking from your application into an IoT Central application.
+Data plane APIs are REST APIs to interact with a specific IoT Central application.  Click [here](https://docs.microsoft.com/en-us/rest/api/iotcentral/) to see the list of available APIs.  Single sign-on enables deep-linking from your application into an IoT Central application.
 
 Control plane APIs are used to manage resources in you Azure subscription.  Use these APIs to create, delete or find and IoT Central application. 
 
