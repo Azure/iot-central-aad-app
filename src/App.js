@@ -15,7 +15,7 @@ function getAccessTokenForScope(msalInstance, scope, account) {
   const tokenRequest = {
     scopes: Array.isArray(scope) ? scope : [scope],
     forceRefresh: false,
-    redirectUri: 'http://localhost:3000'
+    redirectUri: 'http://localhost:4001'
   };
 
   if (account) { tokenRequest.account = account };
